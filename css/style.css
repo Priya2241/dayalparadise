@@ -1,0 +1,455 @@
+body
+{
+    /* font-family: "Open Sans", sans-serif; */
+    
+    overflow-x: hidden;
+    letter-spacing: 0.2px;
+    /* color: white; */
+}
+.topheader ul li
+{
+    list-style-type: none;
+    margin: 10px 0px;
+}
+.topheader ul li a
+{
+    text-decoration: none;
+    color: #a4b6d1;
+    font-size: 13px;
+    line-height: 1;
+    
+}
+.room ul li a
+{
+    color: black;
+    background-color: #f2f6fb;
+    padding: 6px 25px;
+}
+#icon li 
+{
+    padding: 0px 10px;
+}
+#icon li a
+{
+    font-weight: 550;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#icon li a:hover
+{
+color: #88C273;
+transition: 0.5s ease;
+}
+#slide1
+{
+    height: 700px;
+    background-image: url('../images/1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#slide2
+{
+    height: 700px;
+    background-image: url('../images/2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.slidetxt
+{
+    color: #fff;
+}
+
+.slidetxt h2
+{
+    padding-top: 310px ;
+    font-size: 60px;
+   font-weight: 500;
+    font-family: Edwardian Script ITC;
+}
+.slidetxt p
+{
+    font-size: 20px;
+}
+.welcome h2
+{
+    font-family: Edwardian Script ITC;
+    font-weight: 500;
+    font-size: 40px;
+}
+.dayal p
+{
+    font-size: 18px;
+    line-height: 27px;
+}
+ .p1
+{
+    font-size: 25px;
+    font-weight: 400;
+}
+.p2
+{
+    font-size: 17px;
+}
+.read
+{
+    margin: 35px 0px;
+}
+.read a
+{
+    text-decoration: none;
+    color: white;
+    padding: 10px 25px;
+    background-color: #a8cc3c;
+    margin: auto 90px;
+   border-radius: 5px;
+    font-size: 600;
+}
+.read a:hover
+{
+    background-color: black;
+    transition: 0.5s ease;
+}
+.room-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+
+.title-container {
+    display: flex;
+    align-items: center;
+}
+
+.room-title {
+    font-size: 45px;
+    font-weight: 400;
+    color: #333;
+    margin-right: 10px;
+    font-family: Edwardian Script ITC;
+}
+
+.room-subtitle {
+    font-size: 20px;
+    color: #999;
+    margin-top: -10px;
+}
+
+.line {
+    width: 60px;
+    height: 2px;
+    background-color: #a2bf41;
+    margin-left: 10px;
+    margin-top: 75px;
+}
+
+.navigation-buttons {
+    display: flex;
+    gap: 8px;
+}
+
+.nav-button {
+    background-color: #a2bf41;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+}
+
+.nav-button:hover {
+    background-color: #8e9f34;
+}
+.ttle
+{
+    /* font-weight: 600; */
+    color: black;
+    font-size: 35px;
+    font-family: Edwardian Script ITC;
+}
+.lne {
+    width: 50px;
+    height: 2px;
+    background-color: #a2bf41;
+    margin-left: 10px;
+    margin-top: 17px;
+}
+.card-text
+{
+    margin: 10px 0px;
+    font-size: 18px;
+    color: #aaa;
+}
+.det 
+{
+    text-decoration: none;
+    color: white;
+    background-color: #a2bf41;
+    padding: 10px 25px;
+    border-radius: 3px;
+}
+.det:hover
+{
+    background-color: black;
+    color: white;
+}
+.del span
+{
+    font-family: Edwardian Script ITC;
+}
+#review
+{
+    background-image: url('../images/counter1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.linee
+{
+    width: 50px;
+    height: 4px;
+    background-color: white;
+    margin-left: 10px;
+    margin-top: 17px;
+}
+.sty
+{
+    font-size: 45px;
+    color: white;
+}
+.tle
+{
+    /* font-weight: 600; */
+    color: black;
+    font-size: 50px;
+    font-family: Edwardian Script ITC;
+}
+.container {
+    display: flex;
+    align-items: center;
+    /* border: 1px solid #ccc; */
+    padding: 20px 40px;
+    background-color: #fff;
+    
+    
+}
+
+.distance {
+    text-align: center;
+    margin-right:  40px;
+}
+
+.distance-value {
+    font-size: 50px;
+    font-weight: 400;
+    color: #333;
+}
+
+.distance-label {
+    font-size: 14px;
+    color: #666;
+}
+
+.divider {
+    width: 1px;
+    height: 100px;
+    background-color: #ccc;
+    margin-right: 50px;
+}
+.view
+{
+    text-decoration: none;
+    color: white;
+    background-color: #a2bf41;
+    padding: 10px 25px;
+    border-radius: 3px;
+}
+.view:hover
+{
+    background-color: black;
+    color: white;
+}
+#gall
+{
+    height: 600px;
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.gallery-title {
+    font-size: 45px;
+    /* font-weight: 400; */
+    color: white;
+    margin-right: 10px;
+    font-family: Edwardian Script ITC;
+}
+/* swipper */
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /* background: #fff; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    /* width: 100%;
+    height: 100%; */
+    object-fit: cover;
+  }
+  .container {
+    display: flex;
+    align-items: start;
+    gap: 15px;
+}
+
+/* Styling for the green square with the number */
+.number-box {
+    background-color: #a2bf41;
+    color: #fff;
+    font-family: "Edwardian Script ITC", cursive;
+    font-size: 32px;
+    font-weight: 700;
+    width: 330px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 0px 0px 8px #697d27;
+}
+
+/* Styling for the content area */
+.content {
+    max-width: 600px;
+}
+
+.content h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    color: #333;
+}
+
+.content p {
+    font-size: 18px;
+    color: #666;
+    margin: 5px 0 0;
+}
+#acmd
+{
+    height: 400px;
+    background-image: url('../images/p1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.8;
+   
+}
+  #acmd .col-sm-12
+{
+    background-color: rgba(0, 0, 0, 0.429);
+} 
+ #ac
+ {
+    padding: 0px 50px;
+    font-size: 55px;
+    font-family: "Edwardian Script ITC", cursive;
+    color: white;
+    font-weight: 600;
+ }
+ .asmd
+ {
+    padding: 0px 50px;
+    font-size: 20px;
+    /* font-weight: 700; */
+    color: white;
+ }
+ #am
+{
+    height: 400px;
+    background-image: url('../images/p2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-attachment: fixed;
+    opacity: 0.8;
+   
+}
+#hal
+{
+    height: 400px;
+    background-image: url('../images/p3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-attachment: fixed;
+    /* opacity: 0.8; */
+}
+#din
+{
+    height: 400px;
+    background-image: url('../images/p4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+
+    /* opacity: 0.8; */
+}
+#blur .row .col-sm-12
+{
+    background-color: rgba(0, 0, 0, 0.429);
+}
+.tx
+{
+    color: grey;
+    font-size: 18px;
+}
+.col-sm-4 div a
+{
+    text-decoration: none;
+    color: grey;
+    padding: 10px 20px;
+    /* border: 1px solid white; */
+    font-size: 25px;
+    
+}
+.col-sm-4 div a:hover
+{
+    color: #a2bf41;
+}
+.hori
+{
+    width: 50px;
+    height: 2px;
+    background-color: #a2bf41;
+     margin-left: 23px; 
+    /* margin-top: 17px; */ 
+}
+.foot ul li
+{
+    list-style-type: none;
+    margin-top: 10px;
+    color: grey;
+    font-size: 18px;
+}
+.foot ul li a
+{
+    text-decoration: none;
+    color: grey;
+    font-size: 18px;
+}
+.foot ul li a:hover
+{
+    color: #a2bf41;
+}
+
+
